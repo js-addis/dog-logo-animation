@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dog-logo-animtion</title>
+  </head>
+  <body>
+	<svg id="Layer_1" 
+        data-name="Layer 1" 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 746 710.38">
+        <defs>
+            <style>
+                body {
+                    margin: 0;
+                    padding: 0
+                }
+                svg {
+                    width: 500px;
+                    height: 500px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                svg .draw {
+                    stroke: #000;
+                    stroke-width: 5px;
+                    fill: transparent;
+                    stroke-dasharray: 3500;
+                    stroke-dashoffset: 3500;
+                    animation: animate 5s linear forwards infinite;
+                }
+                @keyframes animate {
+                    to {
+                        stroke-dashoffset: 0;
+                    }
+                }
+            </style>
+        </defs>
+        <polygon class="draw" 
+                 points="0.5 532.3 0.5 177.8 373 0.55 745.5 177.8 745.5 532.05 373
+                         709.55 397.5 448.05 550.5 401.05 560.5 299.05 409.5 265.05
+                         366.5 133.05 321.5 216.15 253.5 139.05 222.5 311.05 0.5 532.3"/>
+    </svg>
+  </body>
+</html>
